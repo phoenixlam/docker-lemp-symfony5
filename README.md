@@ -37,6 +37,7 @@ vi docker-compose.yml
 #   nginx/ssl/nginx-selfsigned.crt
 #   nginx/ssl/nginx-selfsigned.key
 
+# Start the containers
 docker-compose up
 
 # Verify
