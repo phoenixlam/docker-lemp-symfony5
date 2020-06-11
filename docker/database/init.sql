@@ -17,7 +17,3 @@ CREATE TABLE IF NOT EXISTS `testtable` (
 INSERT IGNORE INTO testtable SET col_varchar='test english';
 INSERT IGNORE INTO testtable SET col_varchar='test 繁體中文';
 INSERT IGNORE INTO testtable SET col_varchar='test 简体中文';
-
--- auto create if set env
--- CREATE USER 'appuser'@'%' IDENTIFIED BY 'apppassword';
--- GRANT ALL PRIVILEGES ON testdb.* TO 'appuser'@'%';
